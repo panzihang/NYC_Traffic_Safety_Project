@@ -43,4 +43,4 @@ This was the first project I did (as a team) after learning about machine learni
 
 However, this project does provide an interesting perspective to look into this Civil Engineering problem. The project could be improved from two stand points: <br>
 1. Model: We could turn back to more explainable models from traditional machine learning, such as tree models and logistic regression.
-2 .Feature: We could gather features from more dimensions beyond images. Examples include heights of the surrounding buildings, angels of the crossroads and number of lanes. While we may not have off-the-shelf data about the angels and lane numbers, satellite images do include these information and this is where a Convolutional Neural Network may help.
+2. Feature: We could gather features from more dimensions beyond images. Examples include heights of the surrounding buildings, angels of the crossroads and number of lanes. While we may not have off-the-shelf data about the angels and lane numbers, satellite images do include these information and this is where a Convolutional Neural Network may help.
