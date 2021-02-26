@@ -1,5 +1,5 @@
 # NYC_Traffic_Safety_Project
-I tidied and reorganized the codes of the first project I did (as a team with my classmates). This repo includes the original data of maps and accidents in NYC, also Python codes to do preprocessing and feed them into a CNN model.
+I tidied and reorganized the codes of the first project I did (as a team with my classmates, credit to Shuxiao Chen, Xiaoya Lai, Xudan Luo, Minxi Zhong and Jiaying Li). This repo includes the original data of maps and accidents in NYC, also Python codes to do preprocessing and feed them into a CNN model.
 
 ## Background
 Traffic accidents are becoming more and more common causes of injuries and deaths in cities. Only in New York, on average 622 traffic accidents happened everyday in the past days in 2018, according to NYC Open Data. <br>
