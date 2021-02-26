@@ -17,16 +17,16 @@ First, we computed the coordinates of every intersections in NY, Manhattan, then
 Based on the center coordinates we computed, we counted the number of accidents nearby (in the image). We then transferred these numbers into 5 categories to label the safety of these intersections.
 
 ### Data Visualization
-All traffic accidents in Manhattan between 2011 and 2018. <br>
+All traffic accidents in Manhattan between 2012 and 2018, projected by coordinates. <br>
 <img src="Manhattan_All_Traffic_Accidents.png" width=250>
 
-An example of safe crossroad: (Red dots are the projections of history accidents.)<br>
-<img src="Safe_Cross_Raw.png" width=250>
-<img src="Safe_Cross_Proj.png" width=250>
+An example of a **safe** crossroad: (Red dots are the projections of history accidents.)<br>
+<img src="Safe_Cross_Raw.png" width=400>
+<img src="Safe_Cross_Proj.png" width=400>
 
-An example of dangerous crossroad: <br>
-<img src="Dangerous_Cross_Raw.png" width=250>
-<img src="Dangerous_Cross_Proj.png" width=250>
+An example of a **dangerous** crossroad: <br>
+<img src="Dangerous_Cross_Raw.png" width=400>
+<img src="Dangerous_Cross_Proj.png" width=400>
 
 
 
