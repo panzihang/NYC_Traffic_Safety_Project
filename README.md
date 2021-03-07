@@ -18,16 +18,17 @@ Based on the center coordinates we computed, we counted the number of accidents 
 
 ### Data Visualization
 All traffic accidents in Manhattan between 2012 and 2018, projected by coordinates. <br>
-<img src="Manhattan_All_Traffic_Accidents.png" width=250>
+<img src="images/Manhattan_All_Traffic_Accidents.png" width=250>
 
-An example of a **safe** crossroad: (Red dots are the projections of history accidents.)<br>
-<img src="Safe_Cross_Raw.png" width=400>
-<img src="Safe_Cross_Proj.png" width=400>
+An example of a **safe** crossroad (Grand St × Crosby St)
+<br>(Red dots are the projections of history accidents.)<br>
+<img src="images/Safe_Cross_Raw.png" width=400>
+<img src="images/Safe_Cross_Proj.png" width=400>
 
-An example of a **dangerous** crossroad: <br>
-<img src="Dangerous_Cross_Raw.png" width=400>
-<img src="Dangerous_Cross_Proj.png" width=400>
-
+An example of a **dangerous** crossroad: （Broadway × Canal St) <br>
+<img src="images/Dangerous_Cross_Raw.png" width=400>
+<img src="images/Dangerous_Cross_Proj.png" width=400>
+<br>
 
 
 ## Our model
@@ -42,6 +43,10 @@ Our baseline network structure can be summarized as follows:
 7.	Dropout set to 50%.
 8.	Fully connected output layer with 10 units and a softmax activation function.
 A logarithmic loss function is used with the stochastic gradient descent optimization algorithm configured with a large momentum and weight decay start with a learning rate of 0.01.
+
+<img src="images/model_structure.png" width=400>
+<br>
+<br>
 
 ## Results
 Training Accuracy: 75.68% <br>
